@@ -893,7 +893,7 @@
 						globalData.balance = data.result.balance
 						balance = amountFormat(globalData.balance)
 					} else {
-						showMessage(messages.errors['balance-load-failed'])
+						showMessage(messages.error['balance-load-failed'])
 					}
 
 					$('.wallet-balance .amount').text(balance)
